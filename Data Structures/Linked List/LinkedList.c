@@ -11,6 +11,7 @@ struct node
 
 struct node *head=NULL;
 
+// Insert element at the beginning 
 void insert()
 {
     int val;
@@ -22,6 +23,7 @@ void insert()
     head=newnode;
 }
 
+// List the elements present in the linked list
 void display()
 {
     struct node *dis=head;
